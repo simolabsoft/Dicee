@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 leftDice.setImageResource(dices[number1]);
                 int number2 = random.nextInt(6);
                 rightDice.setImageResource(dices[number2]);
+                // toas added
                 if(number1 == number2)
                 {
                     Context context = getApplicationContext();
